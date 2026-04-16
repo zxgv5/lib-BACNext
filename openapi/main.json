@@ -36608,6 +36608,36 @@
                         "score_tip": ""
                       }
                     }
+                  },
+                  "3": {
+                    "summary": "未答题",
+                    "value": {
+                      "code": 0,
+                      "message": "OK",
+                      "ttl": 1,
+                      "data": {
+                        "hid": 1776366139245308,
+                        "mid": 5622338,
+                        "score": 0,
+                        "status": 2,
+                        "number": 1,
+                        "result": "failed",
+                        "stage": "base",
+                        "version": "v4",
+                        "start_time": 1776366139,
+                        "first_answer": 1,
+                        "progress": "0",
+                        "text": "未答题",
+                        "url": "https://www.bilibili.com/h5/newbie/entry?navhide=1",
+                        "in_reg_audit": false,
+                        "edition": 2,
+                        "rewards": null,
+                        "must_right_num": 60,
+                        "base_err_num": 0,
+                        "only_member_passed": false,
+                        "score_tip": ""
+                      }
+                    }
                   }
                 }
               }
@@ -36689,92 +36719,187 @@
                     "data"
                   ]
                 },
-                "example": {
-                  "code": 0,
-                  "message": "0",
-                  "ttl": 1,
-                  "data": [
-                    {
-                      "id": 1,
-                      "name": "游戏",
-                      "fields": [
+                "examples": {
+                  "1": {
+                    "summary": "成功示例",
+                    "value": {
+                      "code": 0,
+                      "message": "0",
+                      "ttl": 1,
+                      "data": [
                         {
                           "id": 1,
-                          "name": "游戏"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 2,
-                      "name": "影视",
-                      "fields": [
+                          "name": "游戏",
+                          "fields": [
+                            {
+                              "id": 1,
+                              "name": "游戏"
+                            }
+                          ]
+                        },
                         {
                           "id": 2,
-                          "name": "影视"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 3,
-                      "name": "科教/知识",
-                      "fields": [
+                          "name": "影视",
+                          "fields": [
+                            {
+                              "id": 2,
+                              "name": "影视"
+                            }
+                          ]
+                        },
                         {
                           "id": 3,
-                          "name": "科教/知识"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 4,
-                      "name": "动画/动漫",
-                      "fields": [
+                          "name": "科教/知识",
+                          "fields": [
+                            {
+                              "id": 3,
+                              "name": "科教/知识"
+                            }
+                          ]
+                        },
                         {
                           "id": 4,
-                          "name": "动画/动漫"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 5,
-                      "name": "音乐/舞蹈",
-                      "fields": [
+                          "name": "动画/动漫",
+                          "fields": [
+                            {
+                              "id": 4,
+                              "name": "动画/动漫"
+                            }
+                          ]
+                        },
                         {
                           "id": 5,
-                          "name": "音乐/舞蹈"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 32,
-                      "name": "明星/娱乐",
-                      "fields": [
+                          "name": "音乐/舞蹈",
+                          "fields": [
+                            {
+                              "id": 5,
+                              "name": "音乐/舞蹈"
+                            }
+                          ]
+                        },
                         {
                           "id": 32,
-                          "name": "明星/娱乐"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 35,
-                      "name": "鬼畜",
-                      "fields": [
+                          "name": "明星/娱乐",
+                          "fields": [
+                            {
+                              "id": 32,
+                              "name": "明星/娱乐"
+                            }
+                          ]
+                        },
                         {
                           "id": 35,
-                          "name": "鬼畜"
-                        }
-                      ]
-                    },
-                    {
-                      "id": 42,
-                      "name": "时尚/健身",
-                      "fields": [
+                          "name": "鬼畜",
+                          "fields": [
+                            {
+                              "id": 35,
+                              "name": "鬼畜"
+                            }
+                          ]
+                        },
                         {
                           "id": 42,
-                          "name": "时尚/健身"
+                          "name": "时尚/健身",
+                          "fields": [
+                            {
+                              "id": 42,
+                              "name": "时尚/健身"
+                            }
+                          ]
                         }
                       ]
                     }
-                  ]
+                  },
+                  "2": {
+                    "summary": "成功示例",
+                    "value": {
+                      "code": 0,
+                      "message": "OK",
+                      "ttl": 1,
+                      "data": [
+                        {
+                          "id": 1,
+                          "name": "游戏",
+                          "fields": [
+                            {
+                              "id": 1,
+                              "name": "游戏"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 2,
+                          "name": "影视",
+                          "fields": [
+                            {
+                              "id": 2,
+                              "name": "影视"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 3,
+                          "name": "科教/知识",
+                          "fields": [
+                            {
+                              "id": 3,
+                              "name": "科教/知识"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 4,
+                          "name": "动画/动漫",
+                          "fields": [
+                            {
+                              "id": 4,
+                              "name": "动画/动漫"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 5,
+                          "name": "音乐/舞蹈",
+                          "fields": [
+                            {
+                              "id": 5,
+                              "name": "音乐/舞蹈"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 32,
+                          "name": "明星/娱乐",
+                          "fields": [
+                            {
+                              "id": 32,
+                              "name": "明星/娱乐"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 35,
+                          "name": "鬼畜",
+                          "fields": [
+                            {
+                              "id": 35,
+                              "name": "鬼畜"
+                            }
+                          ]
+                        },
+                        {
+                          "id": 42,
+                          "name": "时尚/健身",
+                          "fields": [
+                            {
+                              "id": 42,
+                              "name": "时尚/健身"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             },
@@ -36798,7 +36923,7 @@
             "in": "query",
             "description": "",
             "required": true,
-            "example": "",
+            "example": "1776366139245308",
             "schema": {
               "type": "string"
             }
@@ -37012,89 +37137,229 @@
                     "data"
                   ]
                 },
-                "example": {
-                  "code": 0,
-                  "message": "0",
-                  "ttl": 1,
-                  "data": {
-                    "hid": 1581919810114514,
-                    "mid": 1,
-                    "member": 74114514,
-                    "score": 100,
-                    "level": 6,
-                    "first_pass": 1,
-                    "uname": "牛逼",
-                    "face": "https://i1.hdslb.com/bfs/face/1.jpg",
-                    "status": "upgrade",
-                    "question_types": [
-                      {
-                        "id": 26,
-                        "name": "数码科技"
-                      },
-                      {
-                        "id": 30,
-                        "name": "三次元音乐"
-                      },
-                      {
-                        "id": 16,
-                        "name": "电影"
+                "examples": {
+                  "1": {
+                    "summary": "成功示例",
+                    "value": {
+                      "code": 0,
+                      "message": "0",
+                      "ttl": 1,
+                      "data": {
+                        "hid": 1581919810114514,
+                        "mid": 1,
+                        "member": 74114514,
+                        "score": 100,
+                        "level": 6,
+                        "first_pass": 1,
+                        "uname": "牛逼",
+                        "face": "https://i1.hdslb.com/bfs/face/1.jpg",
+                        "status": "upgrade",
+                        "question_types": [
+                          {
+                            "id": 26,
+                            "name": "数码科技"
+                          },
+                          {
+                            "id": 30,
+                            "name": "三次元音乐"
+                          },
+                          {
+                            "id": 16,
+                            "name": "电影"
+                          }
+                        ],
+                        "power": [
+                          {
+                            "score": 0,
+                            "name": "鬼畜"
+                          },
+                          {
+                            "score": 0,
+                            "name": "游戏"
+                          },
+                          {
+                            "score": 6,
+                            "name": "影视"
+                          },
+                          {
+                            "score": 7,
+                            "name": "科技"
+                          },
+                          {
+                            "score": 0,
+                            "name": "动画"
+                          },
+                          {
+                            "score": 9,
+                            "name": "艺术"
+                          }
+                        ],
+                        "start_time": 1500000004,
+                        "share": {
+                          "content": "",
+                          "short_content": ""
+                        },
+                        "can_show_rank_btn": false,
+                        "is_same_user": true,
+                        "view_more": "",
+                        "video_info": {
+                          "url": "",
+                          "name": "",
+                          "img": "",
+                          "watch_num": "",
+                          "up_num": ""
+                        },
+                        "main_tids": [
+                          3
+                        ],
+                        "sub_tids": [
+                          129,
+                          119
+                        ],
+                        "power_result": null,
+                        "score_rate": 99,
+                        "permission": {
+                          "reply": true,
+                          "color_dm": true
+                        },
+                        "rewards": null
                       }
-                    ],
-                    "power": [
-                      {
-                        "score": 0,
-                        "name": "鬼畜"
-                      },
-                      {
-                        "score": 0,
-                        "name": "游戏"
-                      },
-                      {
-                        "score": 6,
-                        "name": "影视"
-                      },
-                      {
-                        "score": 7,
-                        "name": "科技"
-                      },
-                      {
-                        "score": 0,
-                        "name": "动画"
-                      },
-                      {
-                        "score": 9,
-                        "name": "艺术"
+                    }
+                  },
+                  "2": {
+                    "summary": "成功示例",
+                    "value": {
+                      "code": 0,
+                      "message": "OK",
+                      "ttl": 1,
+                      "data": {
+                        "hid": 1776366139245308,
+                        "mid": 5622338,
+                        "member": 273122074,
+                        "score": 94,
+                        "level": 2,
+                        "first_pass": 1,
+                        "uname": "bnevsysko",
+                        "face": "https://i0.hdslb.com/bfs/face/member/noface.jpg",
+                        "status": "upgrade",
+                        "question_types": [
+                          {
+                            "id": 26,
+                            "name": "数码科技"
+                          },
+                          {
+                            "id": 29,
+                            "name": "ACG音乐"
+                          },
+                          {
+                            "id": 31,
+                            "name": "绘画"
+                          },
+                          {
+                            "id": 22,
+                            "name": "数学"
+                          },
+                          {
+                            "id": 25,
+                            "name": "生物"
+                          },
+                          {
+                            "id": 30,
+                            "name": "三次元音乐"
+                          },
+                          {
+                            "id": 8,
+                            "name": "动作射击"
+                          },
+                          {
+                            "id": 9,
+                            "name": "冒险格斗"
+                          },
+                          {
+                            "id": 13,
+                            "name": "角色扮演"
+                          },
+                          {
+                            "id": 14,
+                            "name": "音乐体育"
+                          },
+                          {
+                            "id": 21,
+                            "name": "文学"
+                          },
+                          {
+                            "id": 12,
+                            "name": "策略模拟"
+                          },
+                          {
+                            "id": 20,
+                            "name": "历史"
+                          },
+                          {
+                            "id": 24,
+                            "name": "化学"
+                          },
+                          {
+                            "id": 19,
+                            "name": "地理"
+                          },
+                          {
+                            "id": 23,
+                            "name": "物理"
+                          }
+                        ],
+                        "power": [
+                          {
+                            "score": 3,
+                            "name": "游戏"
+                          },
+                          {
+                            "score": 0,
+                            "name": "影视"
+                          },
+                          {
+                            "score": 3,
+                            "name": "科技"
+                          },
+                          {
+                            "score": 0,
+                            "name": "动画"
+                          },
+                          {
+                            "score": 2,
+                            "name": "艺术"
+                          },
+                          {
+                            "score": 0,
+                            "name": "鬼畜"
+                          }
+                        ],
+                        "start_time": 1776366139,
+                        "share": {
+                          "content": "",
+                          "short_content": ""
+                        },
+                        "can_show_rank_btn": false,
+                        "is_same_user": true,
+                        "view_more": "",
+                        "video_info": {
+                          "url": "",
+                          "name": "",
+                          "img": "",
+                          "watch_num": "",
+                          "up_num": ""
+                        },
+                        "main_tids": [],
+                        "sub_tids": [],
+                        "power_result": null,
+                        "score_rate": 97,
+                        "permission": {
+                          "reply": true,
+                          "color_dm": true
+                        },
+                        "rewards": null
                       }
-                    ],
-                    "start_time": 1500000004,
-                    "share": {
-                      "content": "",
-                      "short_content": ""
-                    },
-                    "can_show_rank_btn": false,
-                    "is_same_user": true,
-                    "view_more": "",
-                    "video_info": {
-                      "url": "",
-                      "name": "",
-                      "img": "",
-                      "watch_num": "",
-                      "up_num": ""
-                    },
-                    "main_tids": [
-                      3
-                    ],
-                    "sub_tids": [
-                      129,
-                      119
-                    ],
-                    "power_result": null,
-                    "score_rate": 99,
-                    "permission": {
-                      "reply": true,
-                      "color_dm": true
-                    },
-                    "rewards": null
+                    }
                   }
                 }
               }
@@ -37252,6 +37517,52 @@
                     "ttl",
                     "data"
                   ]
+                },
+                "example": {
+                  "code": 0,
+                  "message": "OK",
+                  "ttl": 1,
+                  "data": {
+                    "question": {
+                      "id": 1449,
+                      "number": 1,
+                      "q_height": 38.4,
+                      "q_coord_y": 0,
+                      "image": "https://i0.hdslb.com/bfs/member/008ac2af8ce671c2ccfa87410ccdc6bb.png",
+                      "from": "",
+                      "options": [
+                        {
+                          "number": 1,
+                          "high": 42,
+                          "coord_y": 38.4,
+                          "hash": "4a2adcd4c3b7006c9c981ab6facc9805"
+                        },
+                        {
+                          "number": 2,
+                          "high": 42,
+                          "coord_y": 80.4,
+                          "hash": "b67ca5ef199129e1379838ae0bbfb692"
+                        }
+                      ],
+                      "type_id": 0,
+                      "type_name": "",
+                      "type_image": "",
+                      "question": {
+                        "title": "LZj8XlPIVIiYexwjl6wo7QbtUcNmtC1y0qVd37+duBZhO6zyzdp2/R6+YOhyaX1Tbwx/E1rqhRyqpZEywBuqhg==",
+                        "ans": [
+                          {
+                            "key": "4a2adcd4c3b7006c9c981ab6facc9805",
+                            "title": "7IlU7JX62FqDF7x1p7CPVw=="
+                          },
+                          {
+                            "key": "b67ca5ef199129e1379838ae0bbfb692",
+                            "title": "/Ut7ARfimUlYoPIh7FaDyA=="
+                          }
+                        ]
+                      },
+                      "decision_ctx": {}
+                    }
+                  }
                 }
               }
             },
