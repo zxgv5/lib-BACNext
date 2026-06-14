@@ -126,7 +126,9 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "source": "risk"
+              }
             }
           },
           "required": true
@@ -218,7 +220,16 @@
                   "tel"
                 ]
               },
-              "examples": {}
+              "example": {
+                "tmp_code": "",
+                "sms_type": "loginTelBind",
+                "recaptcha_token": "",
+                "gee_challenge": "",
+                "gee_seccode": "",
+                "gee_validate": "",
+                "country_code": "86",
+                "tel": ""
+              }
             }
           },
           "required": true
@@ -517,7 +528,12 @@
                   "source"
                 ]
               },
-              "examples": {}
+              "example": {
+                "sns_platform": "qq",
+                "go_url": "",
+                "csrf_state": "1",
+                "source": "main-fe-header"
+              }
             }
           },
           "required": true
@@ -629,7 +645,13 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "csrf_state": "1",
+                "sns_platform": "qq",
+                "source": "main-fe-header",
+                "go_url": "",
+                "code": "98196BC9B2CF2CA5FC07E54C6F3D45D6"
+              }
             }
           },
           "required": true
@@ -1193,7 +1215,10 @@
                   "oauthKey"
                 ]
               },
-              "examples": {}
+              "example": {
+                "oauthKey": "c3bd5286a2b40a822f5f60e9bf3f602e",
+                "gourl": "http://www.bilibili.com"
+              }
             }
           },
           "required": true
@@ -2483,7 +2508,19 @@
                   "tel"
                 ]
               },
-              "examples": {}
+              "example": {
+                "cid": "86",
+                "tel": "18888888888",
+                "login_session_id": "00000000000000000000000000000000",
+                "recaptcha_token": "928ce42af30f438088e0e58687e43739",
+                "gee_challenge": "3d85ee613e366c74e338c4b61d9c43d1hc",
+                "gee_validate": "e5b213877818c1cc33be42d218082a46",
+                "gee_seccode": "e5b213877818c1cc33be42d218082a46|jordan",
+                "channel": "bili",
+                "buvid": "XUB12BCB16D20812E103A164ED829711BA789",
+                "local_id": "XUB12BCB16D20812E103A164ED829711BA789",
+                "statistics": "{\"appId\":1,\"platform\":3,\"version\":\"7.27.0\",\"abtest\":\"\"}"
+              }
             }
           },
           "required": true
@@ -2599,7 +2636,10 @@
                   "biliCSRF"
                 ]
               },
-              "examples": {}
+              "example": {
+                "biliCSRF": "",
+                "gourl": "javascript:history.go(-1)"
+              }
             }
           },
           "required": true
@@ -2799,7 +2839,10 @@
                   "refresh_token"
                 ]
               },
-              "examples": {}
+              "example": {
+                "csrf": "",
+                "refresh_token": ""
+              }
             }
           },
           "required": true
@@ -2873,7 +2916,10 @@
                   "dt"
                 ]
               },
-              "examples": {}
+              "example": {
+                "device_info": "",
+                "dt": ""
+              }
             }
           },
           "required": true
@@ -3050,7 +3096,15 @@
                   "challenge"
                 ]
               },
-              "examples": {}
+              "example": {
+                "username": "",
+                "password": "",
+                "validate": "b3e6e5c4062374b565d92454276129b2",
+                "token": "cc1478768283489aa548c8003e7b5ad1",
+                "seccode": "b3e6e5c4062374b565d92454276129b2|jordan",
+                "challenge": "6fe815503cd3daaf3faf67c655739906",
+                "go_url": ""
+              }
             }
           },
           "required": true
@@ -3207,7 +3261,11 @@
                   "code"
                 ]
               },
-              "examples": {}
+              "example": {
+                "source": "",
+                "go_url": "",
+                "code": ""
+              }
             }
           },
           "required": true

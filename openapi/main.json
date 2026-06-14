@@ -2779,7 +2779,12 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "aid": "2",
+                "bvid": "",
+                "reason": "",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -2863,7 +2868,9 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -19158,7 +19165,15 @@
                   "csrf"
                 ]
               },
-              "examples": {}
+              "example": {
+                "aid": "",
+                "up_mid": "3690991309556135",
+                "source": "",
+                "scene": "",
+                "platform": "",
+                "mobi_app": "",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -19288,7 +19303,14 @@
                   "csrf"
                 ]
               },
-              "examples": {}
+              "example": {
+                "aid": "",
+                "up_mid": "3690991309556135",
+                "source": "",
+                "scene": "",
+                "content": "CloudFlare大善人",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -19898,7 +19920,10 @@
                   "tag"
                 ]
               },
-              "examples": {}
+              "example": {
+                "tag": "男娘爸爸被女同妈妈抛弃女儿趁虚而",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -20010,7 +20035,11 @@
                   "name"
                 ]
               },
-              "examples": {}
+              "example": {
+                "tagid": "358409520",
+                "name": "原神",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -20109,7 +20138,10 @@
                   "tagid"
                 ]
               },
-              "examples": {}
+              "example": {
+                "tagid": "357495697",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -20184,7 +20216,11 @@
                   "tagids"
                 ]
               },
-              "examples": {}
+              "example": {
+                "fids": "305956876",
+                "tagids": "-10,114514",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -20259,7 +20295,11 @@
                   "tagids"
                 ]
               },
-              "examples": {}
+              "example": {
+                "fids": "305956876",
+                "tagids": "-10",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -20323,7 +20363,12 @@
                   "beforeTagids"
                 ]
               },
-              "examples": {}
+              "example": {
+                "fids": "305956876",
+                "beforeTagids": "-10",
+                "afterTagids": "-10",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -28490,7 +28535,12 @@
                   "act"
                 ]
               },
-              "examples": {}
+              "example": {
+                "fids": "208259",
+                "act": "1",
+                "re_src": "",
+                "csrf": "5eeda577cfc2316c2e9c054e361ddc90"
+              }
             }
           },
           "required": true
@@ -28753,7 +28803,12 @@
                   "csrf"
                 ]
               },
-              "examples": {}
+              "example": {
+                "id": "",
+                "ans": "",
+                "csrf": "7476965f555292846afcf52686c75fca",
+                "buvid": ""
+              }
             }
           },
           "required": true
@@ -29157,7 +29212,10 @@
                   "csrf"
                 ]
               },
-              "examples": {}
+              "example": {
+                "user_sign": "",
+                "csrf": ""
+              }
             }
           },
           "required": true
@@ -33144,7 +33202,10 @@
                   "csrf"
                 ]
               },
-              "examples": {}
+              "example": {
+                "device": "phone",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -34749,8 +34810,7 @@
               "schema": {
                 "type": "object",
                 "properties": {}
-              },
-              "examples": {}
+              }
             }
           },
           "required": true
@@ -37651,7 +37711,11 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "question_id": "1423",
+                "ans_hash": "1f0cc1580b2fdf82bd8a345a4092403d",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -37726,7 +37790,11 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "question_id": "1423",
+                "ans_hash": "1f0cc1580b2fdf82bd8a345a4092403d",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -37801,7 +37869,11 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "question_id": "1423",
+                "ans_hash": "1f0cc1580b2fdf82bd8a345a4092403d",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -37909,7 +37981,13 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "type": "geetest",
+                "geetest_challenge": "",
+                "geetest_seccode": "",
+                "geetest_validate": "",
+                "csrf": ""
+              }
             }
           },
           "required": true
@@ -37947,7 +38025,7 @@
                 "properties": {
                   "types": {
                     "type": "number",
-                    "example": 0
+                    "example": ""
                   },
                   "csrf": {
                     "example": "",
@@ -37955,7 +38033,10 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "types": "",
+                "csrf": ""
+              }
             }
           },
           "required": true
@@ -37998,7 +38079,9 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "csrf": ""
+              }
             }
           },
           "required": true
@@ -70496,7 +70579,10 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "kid": "archive_115993527457589",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -70554,7 +70640,9 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -70668,7 +70756,10 @@
                   }
                 }
               },
-              "examples": {}
+              "example": {
+                "switch": "false",
+                "csrf": "7476965f555292846afcf52686c75fca"
+              }
             }
           },
           "required": true
@@ -79400,8 +79491,7 @@
                   "uk",
                   "room_id"
                 ]
-              },
-              "examples": {}
+              }
             }
           },
           "required": true
