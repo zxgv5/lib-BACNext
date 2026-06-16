@@ -34810,7 +34810,8 @@
               "schema": {
                 "type": "object",
                 "properties": {}
-              }
+              },
+              "examples": {}
             }
           },
           "required": true
@@ -79491,7 +79492,8 @@
                   "uk",
                   "room_id"
                 ]
-              }
+              },
+              "examples": {}
             }
           },
           "required": true
